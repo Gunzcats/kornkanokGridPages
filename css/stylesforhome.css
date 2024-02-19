@@ -4,7 +4,7 @@
 
 .row {
   display: grid;
-  grid-template-columns: auto auto ;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
   grid-auto-rows: 6fr;
   gap: 15px;
 }
@@ -81,6 +81,12 @@ html {
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
+  .row {
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    grid-auto-rows: 6fr;
+    gap: 15px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
@@ -96,6 +102,12 @@ html {
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
+  .row {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-auto-rows: 6fr;
+    gap: 15px;
+  }
 }
 
 
